@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLazyQuery } from "react-apollo";
-// import Loader from "react-loader-spinner";
+import Loader from "react-loader-spinner";
 import Form from "../form/Form.js";
 import User from "./User";
 import Message from "../messages/Message";
@@ -26,10 +26,6 @@ const UserList = () => {
     let validated = validateInput(query_value, query_type, setDisplayError);
     if (validated) {
       getUsers(queryParameters(query_value));
-      // setInputValues({
-      //   query_value: "",
-      //   query_type: "Login",
-      // });
     }
   };
 
@@ -37,14 +33,14 @@ const UserList = () => {
 
   if (loading)
     return (
-      // <Loader
-      //   style={{ width: "100%", textAlign: "center" }}
-      //   type="Bars"
-      //   color="#00BFFF"
-      //   height={80}
-      //   width={80}
-      // />
-      <p style={{ textAlign: "center" }}>..loading</p>
+      <Loader
+        style={{ width: "100%", textAlign: "center" }}
+        type="Bars"
+        color="#00BFFF"
+        height={80}
+        width={80}
+      />
+      // <p style={{ textAlign: "center" }}>..loading</p>
     );
   if (error) {
     console.log(`Error! ${error}`);
