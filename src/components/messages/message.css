@@ -1,0 +1,17 @@
+.bar {
+  margin: 0 auto;
+  width: 90vw;
+  border-radius: 5px;
+  padding: 5px;
+  background: #fff;
+  color: #444;
+  text-align: center;
+}
+
+.bar--info {
+  border: 2px solid rgb(248, 197, 101);
+}
+
+.bar--warning {
+  border: 2px solid #e31836;
+}

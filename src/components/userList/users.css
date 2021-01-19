@@ -1,0 +1,39 @@
+/* blue #4e96f8 */
+/* light blue #f4f9ff */
+/* red #e31836  */
+
+.user {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  min-width: 230px;
+  height: auto;
+}
+
+.user img {
+  width: 100%;
+  height: auto;
+}
+
+.user__text {
+  border: 1px solid red;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.user__text p:first-child {
+  text-align: center;
+}
+
+.user__button {
+  cursor: pointer;
+  width: 100%;
+  color: #4e96f8;
+  text-align: center;
+}
