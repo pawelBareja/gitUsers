@@ -4,13 +4,22 @@
   height: 50px;
   border-radius: 5px;
   display: inline-block;
-  border: 2px solid #e31836;
+  border: 2px solid #fff;
   font-size: 18px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .btn--primary {
+  border: 2px solid #e31836;
   background-color: #e31836;
   color: #fff;
+  margin: 5px;
+}
+
+.btn--secondary {
+  border-color: #fff;
+  color: #4e96f8;
+  width: 100%;
   margin: 5px;
 }

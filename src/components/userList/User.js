@@ -31,7 +31,7 @@ const User = ({ usersData }) => {
                 )}
               </div>
               <Button
-                classBtn={"primary"}
+                classBtn={"secondary"}
                 handleClick={() => toggleUserDescription(node.id)}
                 buttonText={
                   userID.indexOf(node.id) !== -1 ? "Hide" : "Show more"
