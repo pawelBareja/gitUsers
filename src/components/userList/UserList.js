@@ -44,7 +44,7 @@ const UserList = () => {
       //   height={80}
       //   width={80}
       // />
-      <p>..loading</p>
+      <p style={{ textAlign: "center" }}>..loading</p>
     );
   if (error) {
     console.log(`Error! ${error}`);
