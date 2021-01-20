@@ -5,7 +5,6 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// nowe
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 
